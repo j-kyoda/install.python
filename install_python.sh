@@ -1,7 +1,7 @@
 #!/bin/bash
 # -*- coding: utf-8 -*-
 
-# required pakkages(CentOS7)
+# required packages(CentOS7)
 yum -y install gcc
 yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel
 yum -y install sqlite-devel readline-devel tk-devel httpd-devel
