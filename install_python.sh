@@ -17,11 +17,11 @@ cd Python-2.7.14
 make
 make altinstall
 
-# install python 3.6.1
+# install python 3.6.2
 cd /usr/local/src
-curl -LO https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tgz
-tar fxz Python-3.6.1.tgz
-cd Python-3.6.1
+curl -LO https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tgz
+tar fxz Python-3.6.2.tgz
+cd Python-3.6.2
 ./configure --prefix=/opt/python3.6 --with-ensurepip=install \
 --with-threads --enable-shared LDFLAGS='-Wl,-rpath=/opt/python3.6/lib'
 make
