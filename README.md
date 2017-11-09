@@ -9,7 +9,7 @@ This script install Python3.6.3.
 How to install
 --------------
 
-> # bash install_python.sh
+	# bash install_python.sh
 
 
 How to use installed python with virtualenv
@@ -17,19 +17,19 @@ How to use installed python with virtualenv
 
 ### make virtualenv
 
-> $ mkdir ProjectName
-> $ cd ProjectName
-> $ /opt/python3.6/bin/python3.6 -m venv venv
+	$ mkdir ProjectName
+	$ cd ProjectName
+	$ /opt/python3.6/bin/python3.6 -m venv venv
 
 ### activate virtualenv
 
-> $ cd Projectname
-> $ source venv/bin/activate
-> (venv) $
+	$ cd Projectname
+	$ source venv/bin/activate
+	(venv) $
 
 - Then you can use pip command.
 
 ### deactivate virtualenv
 
-> (venv) $ deactivate
-> $
+	(venv) $ deactivate
+	$
