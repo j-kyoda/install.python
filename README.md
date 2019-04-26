@@ -9,7 +9,13 @@ This script install Python3.7.3.
 How to install
 --------------
 
+ 64-bit version
+
 	# bash install_python.sh
+
+ 32-bit version
+
+	# bash install_python.i686.sh
 
 
 How to use installed python with virtualenv
