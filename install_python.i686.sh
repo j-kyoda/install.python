@@ -8,11 +8,11 @@ yum -y install sqlite-devel.i686 readline-devel.i686 tk-devel.i686 httpd-devel.i
 yum -y install mysql-devel.i686 gdbm-devel.i686 xz-devel.i686
 yum -y install libffi-devel.i686
 
-# install python 3.7.3
+# install python 3.7.4
 cd /usr/local/src
-curl -LO https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz
-tar fxz Python-3.7.3.tgz
-cd Python-3.7.3
+curl -LO https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
+tar fxz Python-3.7.4.tgz
+cd Python-3.7.4
 BASECFLAGS=-m32 CFLAGS=-m32 ./configure --prefix=/opt/python3.7_i686 --with-ensurepip=install \
 --with-universal-archs=32-bit \
 --with-threads --enable-shared LDFLAGS='-m32 -Wl,-rpath=/opt/python3.7_i686/lib'
