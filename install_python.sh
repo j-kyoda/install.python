@@ -5,15 +5,19 @@
 yum -y install gcc
 yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel
 yum -y install sqlite-devel readline-devel tk-devel httpd-devel
-yum -y install mysql-devel gdbm-devel xz-devel
+yum -y install gdbm-devel xz-devel
 yum -y install libffi-devel
 
-# install python 3.7.5
+# install python 3.8.1
 cd /usr/local/src
-curl -LO https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tgz
-tar fxz Python-3.7.5.tgz
-cd Python-3.7.5
-./configure --prefix=/opt/python3.7 --with-ensurepip=install \
---with-threads --enable-shared LDFLAGS='-Wl,-rpath=/opt/python3.7/lib'
+curl -LO https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tgz
+if [ -d Python-3.8.1 ]
+then
+    rm -rf Python-3.8.1
+fi
+tar fxz Python-3.8.1.tgz
+cd Python-3.8.1
+./configure --prefix=/opt/python3.8 --with-ensurepip=install \
+--with-threads --enable-shared LDFLAGS='-Wl,-rpath=/opt/python3.8/lib'
 make
 make altinstall

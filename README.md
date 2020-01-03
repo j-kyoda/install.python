@@ -3,7 +3,7 @@ install.python
 
 python install script for CentOS7.
 
-This script install Python3.7.5.
+This script install Python3.8.1.
 
 
 How to install
@@ -27,13 +27,13 @@ How to use installed python with virtualenv
 
 	$ mkdir ProjectName
 	$ cd ProjectName
-	$ /opt/python3.7/bin/python3.7 -m venv venv
+	$ /opt/python3.8/bin/python3.8 -m venv venv
 
  32-bit version
 
 	$ mkdir ProjectName
 	$ cd ProjectName
-	$ /opt/python3.7_i686/bin/python3.7 -m venv venv
+	$ /opt/python3.8_i686/bin/python3.8 -m venv venv
 
 ### activate virtualenv
 
