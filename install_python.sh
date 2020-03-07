@@ -8,11 +8,11 @@ yum -y install sqlite-devel readline-devel tk-devel httpd-devel
 yum -y install mysql-devel gdbm-devel xz-devel
 yum -y install libffi-devel
 
-# install python 3.7.5
+# install python 3.7.6
 cd /usr/local/src
-curl -LO https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tgz
-tar fxz Python-3.7.5.tgz
-cd Python-3.7.5
+curl -LO https://www.python.org/ftp/python/3.7.6/Python-3.7.6.tgz
+tar fxz Python-3.7.6.tgz
+cd Python-3.7.6
 ./configure --prefix=/opt/python3.7 --with-ensurepip=install \
 --with-threads --enable-shared LDFLAGS='-Wl,-rpath=/opt/python3.7/lib'
 make
