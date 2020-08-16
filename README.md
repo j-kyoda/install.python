@@ -3,7 +3,7 @@ install.python
 
 python install script for CentOS7.
 
-This script install Python3.8.3.
+This script install Python3.8.5.
 
 
 How to install
