@@ -8,15 +8,15 @@ yum -y install sqlite-devel.i686 readline-devel.i686 tk-devel.i686 httpd-devel.i
 yum -y install gdbm-devel.i686 xz-devel.i686
 yum -y install libffi-devel.i686
 
-# install python 3.8.5
+# install python 3.8.6
 cd /usr/local/src
-curl -LO https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
-if [ -d Python-3.8.5 ]
+curl -LO https://www.python.org/ftp/python/3.8.6/Python-3.8.6.tgz
+if [ -d Python-3.8.6 ]
 then
-    rm -rf Python-3.8.5
+    rm -rf Python-3.8.6
 fi
-tar fxz Python-3.8.5.tgz
-cd Python-3.8.5
+tar fxz Python-3.8.6.tgz
+cd Python-3.8.6
 BASECFLAGS=-m32 CFLAGS=-m32 ./configure --prefix=/opt/python3.8_i686 --with-ensurepip=install \
 --with-universal-archs=32-bit \
 --with-threads --enable-shared LDFLAGS='-m32 -Wl,-rpath=/opt/python3.8_i686/lib'
