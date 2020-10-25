@@ -1,9 +1,9 @@
 install.python
 ==============
 
-python install script for CentOS7.
+python install script for CentOS8.
 
-This script install Python3.8.6.
+This script install Python3.9.0.
 
 
 How to install
@@ -27,13 +27,13 @@ How to use installed python with virtualenv
 
 	$ mkdir ProjectName
 	$ cd ProjectName
-	$ /opt/python3.8/bin/python3.8 -m venv venv
+	$ /opt/python3.9/bin/python3.9 -m venv venv
 
  32-bit version
 
 	$ mkdir ProjectName
 	$ cd ProjectName
-	$ /opt/python3.8_i686/bin/python3.8 -m venv venv
+	$ /opt/python3.9_i686/bin/python3.9 -m venv venv
 
 ### activate virtualenv
 
