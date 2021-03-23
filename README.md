@@ -1,7 +1,7 @@
 install.python
 ==============
 
-python install script for CentOS8.
+python install script for debian10.
 
 This script install Python3.9.2.
 

@@ -1,12 +1,19 @@
 #!/bin/bash
 # -*- coding: utf-8 -*-
 
-# required packages(CentOS8)
-dnf -y install gcc make
-dnf -y install zlib-devel bzip2-devel openssl-devel ncurses-devel
-dnf -y install sqlite-devel readline-devel tk-devel httpd-devel
-dnf -y install gdbm-devel xz-devel
-dnf -y install libffi-devel
+# required packages(debian10)
+apt-get install gcc make
+apt-get install libzip-dev
+apt-get install libbz2-dev
+apt-get install libcurl4-openssl-dev
+apt-get install libncurses-dev
+apt-get install libsqlite3-dev
+apt-get install libreadline-dev
+apt-get install tk-dev
+apt-get install apache2-dev
+apt-get install libgdbm-dev
+apt-get install liblzma-dev
+apt-get install libffi-dev
 
 # install python 3.9.2
 cd /usr/local/src
