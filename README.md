@@ -3,7 +3,7 @@ install.python
 
 python install script for CentOS8.
 
-This script install Python3.9.2.
+This script install Python3.9.4.
 
 
 How to install
