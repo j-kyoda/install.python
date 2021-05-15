@@ -8,15 +8,15 @@ dnf -y install sqlite-devel.i686 readline-devel.i686 tk-devel.i686 httpd-devel.i
 dnf -y install gdbm-devel.i686 xz-devel.i686
 dnf -y install libffi-devel.i686
 
-# install python 3.9.4
+# install python 3.9.5
 cd /usr/local/src
-curl -LO https://www.python.org/ftp/python/3.9.4/Python-3.9.4.tgz
-if [ -d Python-3.9.4 ]
+curl -LO https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz
+if [ -d Python-3.9.5 ]
 then
-    rm -rf Python-3.9.4
+    rm -rf Python-3.9.5
 fi
-tar fxz Python-3.9.4.tgz
-cd Python-3.9.4
+tar fxz Python-3.9.5.tgz
+cd Python-3.9.5
 BASECFLAGS=-m32 CFLAGS=-m32 ./configure --prefix=/opt/python3.9_i686 --with-ensurepip=install \
 --with-universal-archs=32-bit \
 --with-threads --enable-shared LDFLAGS='-m32 -Wl,-rpath=/opt/python3.9_i686/lib'
