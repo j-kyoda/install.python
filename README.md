@@ -3,7 +3,7 @@ install.python
 
 python install script for debian10.
 
-This script install Python3.9.4.
+This script install Python3.9.5.
 
 
 How to install
