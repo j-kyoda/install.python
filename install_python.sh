@@ -15,15 +15,15 @@ apt-get install libgdbm-dev
 apt-get install liblzma-dev
 apt-get install libffi-dev
 
-# install python 3.9.5
+# install python 3.9.6
 cd /usr/local/src
-curl -LO https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz
-if [ -d Python-3.9.5 ]
+curl -LO https://www.python.org/ftp/python/3.9.6/Python-3.9.6.tgz
+if [ -d Python-3.9.6 ]
 then
-    rm -rf Python-3.9.5
+    rm -rf Python-3.9.6
 fi
-tar fxz Python-3.9.5.tgz
-cd Python-3.9.5
+tar fxz Python-3.9.6.tgz
+cd Python-3.9.6
 ./configure --prefix=/opt/python3.9 --with-ensurepip=install \
 --with-threads --enable-shared LDFLAGS='-Wl,-rpath=/opt/python3.9/lib'
 make
