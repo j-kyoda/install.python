@@ -3,7 +3,7 @@ install.python
 
 python install script for debian11.
 
-This script install Python3.10.4.
+This script install Python3.10.5.
 
 
 How to install
