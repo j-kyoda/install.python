@@ -16,9 +16,9 @@ apt-get -y install libgdbm-dev
 apt-get -y install liblzma-dev
 apt-get -y install libffi-dev
 
-# install python 3.10.8
-VERSION=3.10.8
-SHORT_VER=3.10
+# install python 3.11.0
+VERSION=3.11.0
+SHORT_VER=3.11
 
 cd /usr/local/src
 curl -LO https://www.python.org/ftp/python/${VERSION}/Python-${VERSION}.tgz
