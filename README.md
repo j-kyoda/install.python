@@ -1,9 +1,9 @@
 install.python
 ==============
 
-python install script for debian11.
+python install script for debian12.
 
-This script install Python3.11.6.
+This script install Python3.12.0.
 
 
 How to install
@@ -19,7 +19,7 @@ How to use installed python with virtualenv
 
 	$ mkdir ProjectName
 	$ cd ProjectName
-	$ /opt/python3.11/bin/python3.11 -m venv venv
+	$ /opt/python3.12/bin/python3.12 -m venv venv
 
 ### activate virtualenv
 
