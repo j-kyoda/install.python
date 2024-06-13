@@ -1,7 +1,7 @@
 #!/bin/bash
 # -*- coding: utf-8 -*-
 
-# required packages(debian11)
+# required packages(debian12)
 apt-get -y install gcc make
 apt-get -y install libzip-dev
 apt-get -y install libbz2-dev
@@ -16,8 +16,8 @@ apt-get -y install libgdbm-dev
 apt-get -y install liblzma-dev
 apt-get -y install libffi-dev
 
-# install python 3.12.3
-VERSION=3.12.3
+# install python 3.12.4
+VERSION=3.12.4
 SHORT_VER=3.12
 
 cd /usr/local/src
