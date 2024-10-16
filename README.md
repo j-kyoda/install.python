@@ -3,7 +3,7 @@ install.python
 
 python install script for debian12.
 
-This script install Python3.12.7.
+This script install Python3.13.0.
 
 
 How to install
@@ -19,7 +19,7 @@ How to use installed python with virtualenv
 
 	$ mkdir ProjectName
 	$ cd ProjectName
-	$ /opt/python3.12/bin/python3.12 -m venv venv
+	$ /opt/python3.13/bin/python3.13 -m venv venv
 
 ### activate virtualenv
 
