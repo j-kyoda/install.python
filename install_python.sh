@@ -16,8 +16,8 @@ apt-get -y install libgdbm-dev
 apt-get -y install liblzma-dev
 apt-get -y install libffi-dev
 
-# install python 3.13.1
-VERSION=3.13.1
+# install python 3.13.2
+VERSION=3.13.2
 SHORT_VER=3.13
 
 cd /usr/local/src
