@@ -3,7 +3,7 @@ install.python
 
 python install script for debian12.
 
-This script install Python3.13.4.
+This script install Python3.13.5.
 
 
 How to install
