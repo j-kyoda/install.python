@@ -19,7 +19,7 @@ How to use installed python with virtualenv
 
 	$ mkdir ProjectName
 	$ cd ProjectName
-	$ /opt/python3.13/bin/python3.13 -m venv venv
+	$ /opt/python3.14/bin/python3.14 -m venv venv
 
 ### activate virtualenv
 
