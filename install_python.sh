@@ -1,24 +1,11 @@
 #!/bin/bash
 # -*- coding: utf-8 -*-
 
-# required packages(debian12)
-apt-get -y install gcc make
-apt-get -y install libzip-dev
-apt-get -y install libbz2-dev
-apt-get -y install libcurl4-openssl-dev
-apt-get -y install libncurses-dev
-apt-get -y install libsqlite3-dev
-apt-get -y install libssl-dev
-apt-get -y install libreadline-dev
-apt-get -y install tk-dev
-apt-get -y install apache2-dev
-apt-get -y install libgdbm-dev
-apt-get -y install liblzma-dev
-apt-get -y install libffi-dev
+# required packages(arch)
 
-# install python 3.14.2
-VERSION=3.14.2
-SHORT_VER=3.14
+# install python 3.13.10
+VERSION=3.13.10
+SHORT_VER=3.13
 
 cd /usr/local/src
 curl -LO https://www.python.org/ftp/python/${VERSION}/Python-${VERSION}.tgz
