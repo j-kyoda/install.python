@@ -3,8 +3,8 @@
 
 # required packages(arch)
 
-# install python 3.13.10
-VERSION=3.13.10
+# install python 3.13.12
+VERSION=3.13.12
 SHORT_VER=3.13
 
 cd /usr/local/src
