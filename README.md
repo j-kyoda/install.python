@@ -3,7 +3,7 @@ install.python
 
 python install script for arch Linux.
 
-This script install Python3.13.12.
+This script install Python3.13.13.
 
 
 How to install
