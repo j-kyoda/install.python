@@ -3,7 +3,7 @@ install.python
 
 python install script for debian13.
 
-This script install Python3.14.8.
+This script install Python3.15.0.
 
 
 How to install
