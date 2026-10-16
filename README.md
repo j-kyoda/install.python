@@ -1,9 +1,9 @@
 install.python
 ==============
 
-python install script for debian12.
+python install script for debian13.
 
-This script install Python3.14.7.
+This script install Python3.14.8.
 
 
 How to install

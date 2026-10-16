@@ -1,7 +1,7 @@
 #!/bin/bash
 # -*- coding: utf-8 -*-
 
-# required packages(debian12)
+# required packages(debian13)
 apt-get -y install gcc make
 apt-get -y install libzip-dev
 apt-get -y install libbz2-dev
@@ -16,8 +16,8 @@ apt-get -y install libgdbm-dev
 apt-get -y install liblzma-dev
 apt-get -y install libffi-dev
 
-# install python 3.14.7
-VERSION=3.14.7
+# install python 3.14.8
+VERSION=3.14.8
 SHORT_VER=3.14
 
 cd /usr/local/src
